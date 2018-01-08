@@ -1,0 +1,18 @@
+{% extends "personal/header.html" %}
+
+
+{% block content%}
+
+
+
+  {% if isContact %}
+
+      {% for c in content%}
+          <p>{{c}}</p>
+      {% endfor%}
+
+  {% endif%}
+
+
+
+{% endblock%}
